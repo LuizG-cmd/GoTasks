@@ -1,0 +1,37 @@
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content{
+    width: 100%;
+    max-width: 720px;
+    flex: 1;
+    margin: 3em auto 6em auto;
+}
+
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+.btn-new-task{
+    color: #34CA00;
+}
+
+.btn-new-task:hover{
+    background-color: #34CA00;
+    color: #FFF;
+}
+
+.total-tasks{
+    color: #83889A;
+    font-size: 0.9em;
+    font-weight: 600;
+}
+

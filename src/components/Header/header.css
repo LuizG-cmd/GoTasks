@@ -1,0 +1,13 @@
+.header{
+    background: linear-gradient(to right, #0268E2, #18ADFE, #0268E2);
+    padding: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header h1{
+    color: #fff;
+    font-size: 3em;
+    font-weight: 100;
+}
